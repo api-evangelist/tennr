@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.tennr.com/
+note: >-
+  Tennr is a healthcare (referral / patient-orchestration) SaaS platform. It
+  exposes no public API specification, so cross-cutting API standards
+  (oauth2/oidc/rfc9457/pagination) cannot be derived. The compliance posture
+  below is published as certification claims in the site footer; Tennr does not
+  operate a dedicated public trust center page.
+standards:
+- id: hipaa
+  conforms: true
+  evidence: "HIPAA compliance stated in site footer (www.tennr.com)"
+- id: soc2
+  conforms: true
+  evidence: "SOC 2 (SOC II) compliance stated in site footer (www.tennr.com)"

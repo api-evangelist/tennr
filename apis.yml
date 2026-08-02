@@ -1,8 +1,31 @@
 aid: tennr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tennr.png
 name: Tennr
-description: Tennr is a company surfaced as a portfolio company of a16z, gv, iconiq-capital, ivp, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Tennr is a New York City-based healthcare technology company (founded 2021)
+  building agentic patient-orchestration software that automates referral-based
+  care operations for providers and health systems. Its proprietary
+  vision-language model, RaeLM, is trained on over 100 million anonymized
+  medical documents to read faxes, referrals, and unstructured records, then
+  automates document classification, data extraction, patient qualification,
+  insurance eligibility verification, and prior-authorization submission by
+  integrating directly with existing EHR systems. Tennr processes over 10
+  million documents monthly and is HIPAA and SOC 2 compliant. It raised a $101M
+  Series C at a $605M valuation led by IVP, with a16z, Lightspeed, GV, ICONIQ,
+  and Foundation Capital participating. Tennr does not currently publish a
+  public API, developer portal, or specification; integrations are delivered
+  through EHR connections and professional services.
 url: https://raw.githubusercontent.com/api-evangelist/tennr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +39,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Machine Learning
+- Document Processing
+- Prior Authorization
+- Patient Referral
+- EHR Integration
+- Insurance Eligibility
+- Healthcare Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -28,3 +60,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.tennr.com
+- type: About
+  url: https://www.tennr.com/about
+- type: PrivacyPolicy
+  url: https://www.tennr.com/privacy-policy
+- type: Careers
+  url: https://www.tennr.com/careers
+- type: Login
+  url: https://app.tennr.com
+- type: Compliance
+  url: https://www.tennr.com/
+- type: Conformance
+  url: conformance/tennr-conformance.yml
+- type: DomainSecurity
+  url: security/tennr-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
