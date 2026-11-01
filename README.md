@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tennr is a company surfaced as a portfolio company of a16z, gv, iconiq-capital, ivp, lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Tennr is a New York City-based healthcare technology company (founded 2021) building agentic patient-orchestration software that automates referral-based care operations for providers and health systems. Its proprietary vision-language model, RaeLM, is trained on over 100 million anonymized medical documents to read faxes, referrals, and unstructured records, then automates document classification, data extraction, patient qualification, insurance eligibility verification, and prior-authorization submission by integrating directly with existing EHR systems. Tennr processes over 10 million documents monthly and is HIPAA and SOC 2 compliant. It raised a $101M Series C at a $605M valuation led by IVP, with a16z, Lightspeed, GV, ICONIQ, and Foundation Capital participating. Tennr does not currently publish a public API, developer portal, or specification; integrations are delivered through EHR connections and professional services.
 
-Backed by: a16z, gv, iconiq-capital, ivp, lightspeed-venture-partners — https://www.tennr.com
+**Areas:** Company · Healthcare · Artificial Intelligence · Machine Learning · Document Processing · Prior Authorization · Patient Referral · EHR Integration · Insurance Eligibility · Healthcare Automation
+
+## Tennr on APIs.io
+
+Everything profiled for Tennr is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tennr/](https://apis.io/providers/tennr/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tennr Domain Security](https://apis.io/security/tennr/tennr-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tennr.com)
+- [Blog](https://www.tennr.com/press)
+- [Compliance](https://www.tennr.com/)
+- [Privacy policy](https://www.tennr.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 12.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 25.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tennr/](https://apis.io/providers/tennr/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tennr: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tennr/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
